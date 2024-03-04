@@ -93,6 +93,13 @@ form button{
     font-size: 18px;
     font-weight: 600;
     border-radius: 8px;
+    margin-top: 20px;
+}
+
+p{
+    font-family: var(--ff-secondary);
+    font-weight: 500;
+    letter-spacing: 0.3px;
 }
 
 .image{
