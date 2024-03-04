@@ -1,0 +1,101 @@
+@import url(./fonts.css);
+
+*{
+    font-family: var(--ff-main);
+    letter-spacing: var(--ls-main);
+}
+
+body{
+    background-color: #F5F2EB;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px 80px;
+}
+
+.login-section{
+    width: 480px;
+    height: 648px;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    padding: 58px 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+}
+
+.title h1{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.title h2{
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+form input{
+    height: 48px;
+    width: 376px;
+    border-radius: 8px;
+    border: 1px solid #5D5D5D;
+}
+
+input::placeholder{
+    font-size: 16px;
+    font-weight: 500px;
+    padding: 16px;
+}
+
+.register{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    gap: 4px;
+}
+
+.registerText{
+    color: #797979;
+    font-size: 12px;
+}
+
+.registerButton{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+form button{
+    color: #FFFFFF;
+    background-color: #AED6B3;
+    width: 376px;
+    border: 0px;
+    padding: 16px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.image{
+    width: 600px;
+    padding-left: 90px;
+}
